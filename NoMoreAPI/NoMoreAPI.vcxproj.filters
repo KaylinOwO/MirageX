@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Dependencies\SafetyHook\Zydis.c">
+      <Filter>Dependencies\SafetyHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\SafetyHook\safetyhook.cpp">
+      <Filter>Dependencies\SafetyHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Hooks.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\ClientAppManager\ClientAppManager.cpp">
+      <Filter>Hooks\ClientAppManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\ClientUser\ClientUser.cpp">
+      <Filter>Hooks\ClientUser</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces\Interfaces.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Dependencies\SafetyHook\Zydis.h">
+      <Filter>Dependencies\SafetyHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\SafetyHook\safetyhook.hpp">
+      <Filter>Dependencies\SafetyHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\silver-bun.h">
+      <Filter>Dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\ClientAppManager\ClientAppManager.h">
+      <Filter>Hooks\ClientAppManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\ClientUser\ClientUser.h">
+      <Filter>Hooks\ClientUser</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces\Interfaces.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{70518319-3e7e-44f1-84da-e022c76c8b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\SafetyHook">
+      <UniqueIdentifier>{40c5a41a-c78d-4dee-85a2-76ffd7f96bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{82671a91-9be5-43b3-8be4-af742d81c827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\ClientUser">
+      <UniqueIdentifier>{613367c3-5ba7-460c-98bc-509a2d305d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\ClientAppManager">
+      <UniqueIdentifier>{913b9032-2b17-48a4-9c83-f810896c6dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{815c768e-7384-4e6b-9d84-93970ed591ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
